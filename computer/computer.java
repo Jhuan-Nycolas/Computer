@@ -1,3 +1,6 @@
+import hardware.Bit;
+import hardware.memory;
+
 public class computer {
   public computer(int space) {
     Bit[][] diskspace = {};

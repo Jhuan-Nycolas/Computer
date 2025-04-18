@@ -1,3 +1,5 @@
+package hardware;
+
 public class Bit {
   public static Boolean isBin(int num) {
     if (num > 1) {
@@ -5,6 +7,10 @@ public class Bit {
     } else {
       return true;
     }
+  }
+
+  public static Bit add(Bit bit) {
+    return bit;
   }
 
   public static Bit[][] append(Bit[] list, Bit[] self) {
