@@ -1,5 +1,3 @@
-package computer;
-
 public class Bit {
   public static Boolean isBin(int num) {
     if (num > 1) {
