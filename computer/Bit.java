@@ -9,6 +9,12 @@ public class Bit {
     }
   }
 
+  public static Bit[][] append(Bit[] list, Bit[] self) {
+    Bit[][] ls = { self, list };
+
+    return ls;
+  }
+
   public static int and(int a, int b) {
     if (isBin(a) && isBin(b)) {
       if (a == 1 && b == 1) {
